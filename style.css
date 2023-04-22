@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+  width: 100%;
+  height: 100vh;
+}
+.header2{
+    background-image: url(https://assets.rbl.ms/12161675/origin.gif);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.headercontainer{
+    color: black;
+    margin-top: 50px;
+}
+.btn{
+    margin-top: 80px;
+    display: flex;
+    margin-left: 20px;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+.card2container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+.card {
+    border: 1px solid #ccc;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    padding: 1em;
+    margin-top: 10px;
+  }
+  .cardheader{
+    height: 60vh;
+    background-color: black;
+  }
+ .cardheader h4{
+    color: white;
+    justify-content: center;
+    display: flex;
+  }
+  .card2header h4 {
+    color: white;
+    justify-content: center;
+    display: flex;
+  }
+  #yy{
+    color: white;
+    justify-content: center;
+    display: flex;
+  }
+  .btt{
+    background-color: green;
+    border-radius: 20px;
+  }
+  #pp{
+    background-color: green;
+  }
+  #po{
+    border: 1px solid green;
+  }
+  .btn:focus{
+    outline: none;
+  }
+  .btn:hover{
+    transform: scale(1.1);
+    transition-duration: 300ms;
+  }
+  .nav-item:hover{
+   border: 1px solid green;
+   border-radius: 20px;
+  }
+  @media (max-width: 700px) {
+    .header {
+      width: 100%;
+      position: relative;
+    }
+    .navbar{
+      width: 100%;
+      position: relative;
+      left: 0;
+    }
+    nav{
+      width: 100%;
+      position: relative;
+    }
+    .nav-item{
+      width: 100%;
+      position: relative;
+    }
+    .container{
+      width: 100%;
+      position: relative;
+    }
+    button{
+      width: 50%;
+    }
+    .header2{
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+    .card-container{
+      width: 100%;
+      position: relative;
+    }
+    .card{
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 20px;
+    }
+    .cardheader{
+      width: 100%;
+      position: relative;
+    }
+    .card2header{
+      width: 100%;
+      position: relative;
+      margin-top: 970px;
+    }
+    .headercontainer{
+      width: 100%;
+      position: relative;
+    }
+    .cardheader h4{
+      width: 100%;
+      position: relative;
+      left: 0;
+    }
+    .card2container{
+      width: 100%;
+      position: relative;
+      left: 0;
+    }
+    .containerfooter{
+      width: 100%;
+      position: relative;
+    }
+  }
+span{
+  color: darkred;
+}
+footer{
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+.row h4 {
+  margin-top: 30px;
+  text-align: center;
+  color: green;
+}
+ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+}
+ul li:hover{
+  color: green;
+}
+i.fab {
+  font-size: 36px;
+  color: #333;
+  margin-right: 20px;
+}
+i.fab:hover{
+  color: green;
+}
+.sayfaheader{
+  width: 100%;
+  height: 100vh;
+  background-color:black ;
+  position: left;
+  left: 0;
+}
+.sayfacontainer nav{
+  width: 20%;
+  height: 100vh;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-right: 2px solid green;
+}
+.sayfacontainer ul li a{
+  display: flex;
+  color: green;
+  /* left: 0; */
+  padding: 20px;
+  justify-content: center;
+  text-decoration: none;
+}
+.sayfacontainer ul li  a:hover{
+  color: white;
+  text-decoration: overline;
+}
+.hr{
+  width: 100%;
+  color: white;
+}
+.sayfacontainer h5{
+  color: white;
+}
+.sayfacontainer .y{
+  color: white;
+}
+.sayfaheader .sagekran {
+  width: 80%;
+  height: 50vh;
+}
+.sagekran .container .row {
+  padding-bottom: 70px;
+  padding-top: 20px;
+}
+.nn{
+  margin-right: 20px;
+}
+.sagekran{
+  background-image: url(https://assets-global.website-files.com/60a0ade9a9e15bdd6b98f68b/60d5dbf12e61d241489c30b1_spotify-for-artists.jpg);
+  background-position: center;
+  background-size: 1000px;
+}
+.col-4 a{
+  font-size: 20px;
+   text-decoration: none;
+   color:white;
+   padding: auto;
+   margin-left: 10px;
+}
+.col-4 img:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.col-4{
+  padding-left: 5px;
+  }
+  .ee{
+    color: #ccc;
+  }
+  .owl-carousel a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
+  }
+  .owl-carousel a img {
+    margin-left: 30px;
+  }
+  .center-slider {
+    margin-bottom: 60px;
+    background-color: rgb(17, 83, 17);
+    height: 40vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  .center-slider .owl-theme .card img {
+    border: none;
+  }
+  span{
+    color: white;
+  }
+  .owl-carousel a .items {
+    width: 198px;
+    height: 230px;
+    margin: 0px 95px 1px 1px;
+    border-radius: 10px;
+    margin-top: 25px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+    background-color: black;
+    border: 3px solid black;
+    border-bottom: 4px solid white;
+  }
+  .owl-carousel a .items img {
+    border-bottom: 5px solid darkgreen;
+  }
+  .owl-carousel{
+    margin-left: 150px;
+  }
+.owl-carousel a{
+    text-decoration: none;
+}
+.owl-carousel img {
+    max-width: 100px; 
+    max-height: 350px;
+}
+@media (max-width:700px) {
+  .sayfacontainer{
+    width: 100%;
+    position: relative;
+    
+  }
+  .sagekran {
+    width: 100%;
+    display: block;
+  }
+  .sayfaheader{
+    width: 100%;
+  }
+  .row{
+    width: 100%;
+    display: block;
+    right: 20px;
+  }
+  .col-4{
+    width: 100%;
+    display: flex;
+    position: relative;
+   
+  }
+  .container{
+    width: 100%;
+    margin-right: 1000px;
+    position: relative;
+    display: block;
+  }
+  .owl-carousel  {
+    width: 50%;
+    margin-right: 1000px;
+    /* position: relative; */
+    display: flex;
+  }
+  .owl-theme a .items{
+    width: 50%;
+    display: flex;
+    position: relative;
+    margin-right: 2000px;
+    left: 0;
+
+  }
+  .items a{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-right: 1000px;
+    left: 0;
+  }
+  .items img{
+    width: 50%;
+    position: relative;
+    display: flex;
+    margin-right: 1000px;
+  }
+  footer .col-sm-3{
+    margin-top: 100px;
+  }
+}
